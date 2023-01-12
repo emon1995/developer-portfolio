@@ -291,7 +291,12 @@ input {
   nav ul {
     flex-direction: column;
     gap: 20px;
-    align-items: center;
+    align-items: flex-start;
+    padding-left: 6px;
+  }
+
+  nav li {
+    margin-left: 0;
   }
 
   .banner {
