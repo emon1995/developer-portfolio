@@ -269,9 +269,14 @@ input {
     margin: 20px;
   }
   .skills-container,
-  .resume-container {
+  .resume-container,
+  .about-info-container {
     flex-direction: column;
+    gap: 20px;
     padding: 10px 20px;
+  }
+  .about {
+    padding: 20px;
   }
 }
 
